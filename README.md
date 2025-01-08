@@ -1,83 +1,22 @@
-import 'package:flutter/material.dart';
-import 'package:thirdapp/Indro.dart';
-//import 'package:thirdapp/a1.dart';
+<h1 align="center">Hi 👋, I'm Amresh Pal</h1>
+<h3 align="center">Turning Ideas into Interactive Apps with Flutter</h3>
 
-void main() {
-  runApp(Myapp());
-}
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=palamresh&label=Profile%20views&color=0e75b6&style=flat" alt="palamresh" /> </p>
 
-class Myapp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: HomePage(),
-      theme: ThemeData(
-        primaryColor: Colors.blue,
-        brightness: Brightness.light,
-      ),
-    );
-  }
-}
+- 🔭 I’m currently working on **QR Code Scanner And Generator**
 
-class HomePage extends StatefulWidget {
-  @override
-  State<HomePage> createState() => _HomePageState();
-}
+- 🌱 I’m currently learning **Python and JavaScript**
 
-class _HomePageState extends State<HomePage> {
-  var mytext = [FirstPage(), Information(), Services()];
-  int setitem = 0;
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: AppBar(
-          title: Text('my name is amreshpal ares pa '),
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: [
-            BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-            BottomNavigationBarItem(icon: Icon(Icons.info), label: 'About'),
-            BottomNavigationBarItem(
-                icon: Icon(Icons.cleaning_services), label: 'Clean'),
-          ],
-          currentIndex: setitem,
-          onTap: (setvalue) {
-            setState(() {
-              setitem = setvalue;
-            });
-          },
-        ),
-        body: Center(child: mytext[setitem]));
-  }
-}
+- 💬 Ask me about **Flutter**
 
-  
-  import 'package:flutter/material.dart';
+- 📫 How to reach me **palamresh602@gmail.com**
 
-class FirstPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return ListView(
-      children: [
-        ListTile(
-          leading: Icon(Icons.abc_outlined),
-          title: Text('this ia abc outline'),
-        )
-      ],
-    );
-  }
-}
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/amreshpal7081" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="amreshpal7081" height="30" width="40" /></a>
+</p>
 
-class Information extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Text("Information Page");
-  }
-}
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
-class Services extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Text('Service Pages');
-  }
-}
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=palamresh&show_icons=true&locale=en&layout=compact" alt="palamresh" /></p>
