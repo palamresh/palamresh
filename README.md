@@ -5,7 +5,7 @@
 
 - 🔭 I’m currently working on **QR Code Scanner And Generator App**
 
-- 🌱 I’m currently learning **Python and JavaScript**
+- 🌱 I’m currently learning **Python**
 
 - 💬 Ask me about **Flutter**
 
